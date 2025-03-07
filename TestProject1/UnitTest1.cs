@@ -13,7 +13,7 @@ public class StudentsControllerTests
     private StudentContext GetDbContext()
     {
         var options = new DbContextOptionsBuilder<StudentContext>()
-            .UseInMemoryDatabase(databaseName: "StudentTestDb")
+            .UseInMemoryDatabase(databaseName: "StudentTestD")
             .Options;
         return new StudentContext(options);
     }
